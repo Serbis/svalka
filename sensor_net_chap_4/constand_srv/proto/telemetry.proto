@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package telemetry;
+
+message Telemetry {
+  uint64 uptime = 1;
+  float solarVa = 2;
+  float chargingVa = 3;
+  float battary_charge = 4;
+  float device_consumtion = 5;
+}
